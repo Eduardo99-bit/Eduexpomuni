@@ -1,0 +1,124 @@
+
+body {
+  background-color: #f4f6f8;
+  font-family: 'Cinzel', serif;
+  color: #2c3e50;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0b2a59;
+  color: white;
+  padding: 20px 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+header .logo img {
+  max-height: 80px;
+}
+
+header h1 {
+  font-weight: 900;
+  font-size: 2.5rem;
+  margin-bottom: 0.3rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+header p {
+  font-style: italic;
+  text-align: center;
+  font-size: 1.1rem;
+  letter-spacing: 1.1px;
+}
+
+main.container {
+  max-width: 1100px;
+  padding: 40px 15px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+h2 {
+  color: #0b2a59;
+  border-bottom: 3px solid #a7d129; /* verde claro */
+  padding-bottom: 8px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+p {
+  text-align: justify;
+  font-size: 1.15rem;
+  margin-bottom: 1.3rem;
+  text-indent: 30px;
+}
+
+/* Galería */
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(11, 42, 89, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: none; /* sin efecto hover */
+  box-shadow: 0 4px 10px rgba(11, 42, 89, 0.15); /* sombra fija */
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 230px;
+  object-fit: cover;
+}
+
+.card-body {
+  background-color: #ffffff;
+  padding: 15px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card-text {
+  font-family: 'Cinzel', serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #34495e;
+  margin: 0;
+  text-align: center;
+}
+
+footer {
+  background-color: #0b2a59;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 1rem;
+  letter-spacing: 0.9px;
+  box-shadow: 0 -4px 8px rgba(0,0,0,0.15);
+  font-family: 'Cinzel', serif;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
